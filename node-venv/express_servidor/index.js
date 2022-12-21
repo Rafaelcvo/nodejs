@@ -10,7 +10,8 @@ app.get("/google", function(req, res){
 });
 
 app.get("/ola/:nome/:cargo", function(req, res){
-    res.send(req.params);
+    res.send("Ola Sr. " + req.params.nome);
+    // res.send("<h2>Seu cargo é " + req.params.cargo + "</h2>");
 });
 
 
