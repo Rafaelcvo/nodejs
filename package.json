@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Rafaelcvo/nodejs/issues"
   },
-  "homepage": "https://github.com/Rafaelcvo/nodejs#readme"
+  "homepage": "https://github.com/Rafaelcvo/nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
