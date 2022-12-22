@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 
 app.get("/", function(req, res){
-    res.send("Seja bem vindo!")
+    res.sendFile("C:\\Users\\rafael.moreira\\Documents\\Rafael\\Git\\nodejs\\node-venv\\html\\index.html")
 });
 
 app.get("/google", function(req, res){
@@ -14,5 +14,6 @@ app.get("/ola/:nome/:cargo", function(req, res){
     // res.send("<h2>Seu cargo é " + req.params.cargo + "</h2>");
 });
 
+// console.log(__dirname)
 
-app.listen(8081, function(){console.log("Servidor rodando na url http://localhost:8081");});
+app.listen(8081, function(){console.log("Servidor http://localhost:8081");});
